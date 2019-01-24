@@ -1,0 +1,189 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  background-image: url('bgc.jpg');
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nebbar {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  padding: 10px 20px 10px 20px;
+  justify-content: space-between;
+  background-color: #211F1F;
+  color: #fff;
+}
+
+.bgc {
+  background-color: #A24D38;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: calc(100% - 40px);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container {
+  padding-bottom: 5%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
+  grid-template-areas:
+    ". . . . ."
+    ". h f p ."
+    ". g pf i ."
+    ". n c m .";
+
+}
+
+.icon {
+  color: #FDFCFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon p {
+  font-size: 0.8em;
+}
+
+.icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 0.9em;
+}
+
+.home {
+  grid-area: h;
+}
+
+.home i {
+  background-color: #A44C3A;
+}
+
+.features {
+  grid-area: f;
+}
+
+.features i {
+  background-color: #75B579;
+}
+
+.pages {
+  grid-area: p;
+}
+
+.pages i {
+  background-color: #517DB2;
+}
+
+.gallery {
+  grid-area: g;
+}
+
+.gallery i {
+  background-color: #7C4EA2;
+}
+
+.portfolio {
+  grid-area: pf;
+
+}
+
+.portfolio i {
+  background-color: #B96231;
+
+}
+
+.icons {
+  grid-area: i;
+
+}
+
+.icons i {
+  background-color: #629B8A;
+}
+
+.news {
+  grid-area: n;
+
+}
+
+.news i {
+  background-color: #527CB0;
+}
+
+.callus {
+  grid-area: c;
+}
+
+.callus i {
+  background-color: #CB7C4B;
+}
+
+.mainus {
+  grid-area: m;
+}
+
+.mainus i {
+  background-color: #3C4758;
+}
+
+body hr {
+  width: 80vw;
+  margin: 0 auto;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.socicls {
+  display: flex;
+  justify-content: center;
+  color: #FDFCFA;
+  font-size: 0.7em;
+}
+
+.socicl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 20px 5px;
+}
+.fbgc {
+  background-color: #455791;
+}
+
+.gpbgc {
+  background-color: #B55B44;
+}
+
+.tbgc {
+  background-color: #6896F5;
+}
